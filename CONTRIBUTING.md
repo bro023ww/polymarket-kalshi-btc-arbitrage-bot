@@ -1,4 +1,4 @@
-# Contributing to PolyKalshi Arbitrage Bot
+# Contributing to Polymarket-Kalshi BTC Arbitrage Bot
 
 First off, thanks for taking the time to contribute! 🎉
 
@@ -29,7 +29,7 @@ This section guides you through submitting an enhancement suggestion, including 
 
 1.  **Clone the repo**:
     ```bash
-    git clone https://github.com/yourusername/polykalshi-arbitrage-bot.git
+    git clone https://github.com/yourusername/polymarket-kalshi-btc-arbitrage-bot.git
     ```
 
 2.  **Backend Setup**:

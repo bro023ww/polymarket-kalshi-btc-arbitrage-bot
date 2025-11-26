@@ -1,6 +1,6 @@
 # The Arbitrage Thesis
 
-This document explains the theoretical foundation behind the **PolyKalshi Arbitrage Bot**. It details how we can mathematically guarantee a risk-free profit (arbitrage) by exploiting price discrepancies between two prediction markets: **Polymarket** and **Kalshi**.
+This document explains the theoretical foundation behind the **Polymarket-Kalshi BTC Arbitrage Bot**. It details how we can mathematically guarantee a risk-free profit (arbitrage) by exploiting price discrepancies in the **Bitcoin 1-Hour Price** markets on **Polymarket** and **Kalshi**.
 
 ## 1. The Markets: Binary Options
 

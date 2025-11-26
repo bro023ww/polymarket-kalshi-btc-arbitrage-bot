@@ -1,17 +1,17 @@
-# 🤖 PolyKalshi Arbitrage Bot
+# 🤖 Polymarket-Kalshi BTC Arbitrage Bot
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Next.js](https://img.shields.io/badge/next.js-14+-black.svg)
 ![Status](https://img.shields.io/badge/status-active-green.svg)
 
-**Real-time arbitrage detection between Polymarket and Kalshi prediction markets.**
+**Real-time arbitrage detection for the Bitcoin 1-Hour Price market between Polymarket and Kalshi.**
 
 ## 🚀 Overview
 
-The **PolyKalshi Arbitrage Bot** is a powerful tool designed to monitor and identify risk-free arbitrage opportunities between two of the world's leading prediction markets: **Polymarket** and **Kalshi**.
+The **Polymarket-Kalshi BTC Arbitrage Bot** is a powerful tool designed to monitor and identify risk-free arbitrage opportunities in the **Bitcoin 1-Hour Price** market between two of the world's leading prediction markets: **Polymarket** and **Kalshi**.
 
-By leveraging real-time data from Polymarket's CLOB (Central Limit Order Book) and Kalshi's API, this bot calculates the combined cost of opposing positions (e.g., "Yes" on Kalshi + "Down" on Polymarket). If the total cost is less than $1.00, a risk-free profit opportunity exists.
+By leveraging real-time data from Polymarket's CLOB (Central Limit Order Book) and Kalshi's API, this bot calculates the combined cost of opposing positions (e.g., "Yes" on Kalshi + "Down" on Polymarket) for the same hourly expiration. If the total cost is less than $1.00, a risk-free profit opportunity exists.
 
 This project includes:
 -   **Python Backend**: Fast and efficient data fetching and arbitrage logic using FastAPI.
