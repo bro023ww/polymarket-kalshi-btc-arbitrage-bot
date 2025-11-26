@@ -71,9 +71,9 @@ def get_binance_open_price():
         return None, str(e)
 
 def main():
-    print(f"Starting data fetch for {POLYMARKET_EVENT_SLUG}...")
-    print(f"Target Candle Time: {datetime.datetime.fromtimestamp(TARGET_CANDLE_TIMESTAMP/1000, datetime.timezone.utc)}")
-    print("-" * 50)
+    # print(f"Starting data fetch for {POLYMARKET_EVENT_SLUG}...")
+    # print(f"Target Candle Time: {datetime.datetime.fromtimestamp(TARGET_CANDLE_TIMESTAMP/1000, datetime.timezone.utc)}")
+    # print("-" * 50)
 
     while True:
         try:
@@ -105,7 +105,8 @@ def main():
                 down_price = poly_prices.get("Down", 0)
                 print(f"BUY: UP ${up_price:.3f} & DOWN ${down_price:.3f}")
             
-            print("-" * 30)
+            # print("-" * 30)
+            print() # Add a newline for separation instead of a line
             
             time.sleep(1)
             
