@@ -17,7 +17,7 @@ This project includes:
 -   **Python Backend**: Fast and efficient data fetching and arbitrage logic using FastAPI.
 -   **Next.js Dashboard**: A beautiful, real-time UI built with shadcn/ui to visualize market data and opportunities.
 
-> 📚 **Learn the Theory**: Read our detailed [Arbitrage Thesis](THESIS.md) to understand the mathematics behind risk-free profits in binary option markets.
+> 📚 **Learn the Theory**: Read our detailed [Arbitrage Thesis](thesis.md) to understand the mathematics behind risk-free profits in binary option markets.
 
 ## ✨ Features
 
